@@ -1,27 +1,18 @@
-# PersistenceApp
+Install Node.js and NPM:
+If the recipient doesn't have Node.js and NPM installed, they should do so by downloading and installing them from the official Node.js website: https://nodejs.org/
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.6.
+Install Dependencies:
+In the terminal or command prompt, they should navigate to the project directory and run the following command to install the required dependencies:
 
-## Development server
+bash
+Copy code
+npm install
+This command will read the package.json file and install the necessary packages listed in it.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Run the App:
+Once the dependencies are installed, the recipient can run the Angular app using the following command:
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+bash
+Copy code
+ng serve
+This command will build and serve the app locally. They can then open a web browser and navigate to http://localhost:4200 to see the app in action.
